@@ -1,0 +1,161 @@
+*{margin:0;padding:0}
+body{
+	background-color:#A6A6A6;
+}
+.img{
+	width:180px;
+	height:130px;
+	float:left;
+}
+#wrapper{
+	width:960px;
+	margin:20px auto;
+}
+#header img{
+	background:#FBB72B;
+	border:1px solid #65FE00;
+	padding-top:0px;
+	margin-right:5px;
+	float:left;
+	float:top;
+	margin-left:-50px;
+}
+#header p{
+	background-color:#FBB72B;
+	padding:10px;
+}
+
+#header h2{
+	color:#FFFFF1;
+	font-family:'Poiret One', cursive;
+	text-shadow:2px 2px 2px blue;
+	
+}
+#header h5{
+	color:#35891C;
+	font-family:georgia;
+	margin-top:5px;
+}
+#header{
+	background-color:#FBB72B;
+	padding:51px;
+	border-bottom:5px solid #6B710E;
+	margin-top:-71px;
+	margin-bottom:-47px;
+}
+#nav{
+	background-color:#fff;
+	height:40px;
+	border-bottom:5px solid #6B710E;
+	
+}
+#nav ul{
+	background-color:#fff;
+	list-style-type:none;
+	z-index:99;
+}
+#nav ul li{
+	float:left;
+	border-right:1px solid #6B710E;
+}
+#nav ul li:last-child{
+	border:none;
+}
+#nav ul li a{
+	text-decoration:none;
+	color:#7A7F25;
+	display:block;
+	padding:10px 27px;
+	transititon:0.2s all ease;
+	
+}
+#nav ul li a:hover{
+	color:#fff;
+	background:#002B62;
+}
+#nav ul li a:focus{
+	background:#CC9900;
+}
+#nav ul li a:visited{
+	background:#FFCC00;
+}
+#nav ul li{
+	position:relative;
+}
+#nav ul li ul{
+	position:absolute;left:-99999px;
+	background:#fff;
+}
+#nav ul li:hover ul{
+	left:0;
+	
+}
+#nav ul li ul li:first-child{
+	border-top:1px solid #6B710E;
+}
+#nav ul li ul li{
+	float:left;
+	border-right:none;
+	border-bottom:1px solid #6B710E;
+	width:200px;
+	font-family:arial;
+}
+#footer{
+	background-color:#006600;
+	padding:10px;
+	text-align:center;
+}
+#footer p{
+	color:#FFFEFF;
+}
+article{
+	border:1px solid #6B710E; 
+	margin-right:20px;
+	margin-bottom:20px;
+	margin-top:20px;
+	background-color:;
+}
+#content_wrapper{
+	background-color:#fff;
+	/*border-top:5px solid #6B710E;*/
+	padding:10px;
+	
+}
+#content {
+	color:#6B710E;
+	margin-bottom:5px;
+	margin-top:10px;
+	padding-left:20px;
+}
+#paragraph{
+	margin-right:17px;
+	margin-left:10px;
+	background-color:#73A5EF;
+	border-collapse:collapse;
+	border:5px solid red;
+	
+}
+.headline{
+	background:#0C13A3;
+	margin-right:17px;
+
+	color:#fff;
+	border-collapse:collapse;
+	border:5px solid red;
+	margin-left:10px;
+	margin-top:10px;
+}
+.logo{
+	 border-collapse:collapse;
+	 border-right:5px solid red;
+	 border-left:5px solid red;
+	 margin-left:10px;
+	 margin-right:17px;
+}
+.main{
+	margin-left:10px;
+	margin-bottom:17px;
+}
+section{
+	border-top:10px solid;
+}
